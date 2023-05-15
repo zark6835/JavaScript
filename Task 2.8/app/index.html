@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div>
+    <div class="header-bg">
+    <header class="header container">
+      <p class="header-logo">Where in the world?</p>
+      <div class="header-mode">
+        <img class="header-mode__img" src="./images/night-mode.png" alt="">
+        <p class="header-mode__style">Dark Mode</p>
+      </div>
+    </header>
+  </div>
+      <main class="main container">
+        <form class="main-navigation" onsubmit="return false;">
+          <input class="main-navigation__search" type="text" placeholder="Search for a country..." name="" id="">
+          <select class="main-navigation__regions" name="user_profile_color_1">
+            <option value="1">All regions</option>
+            <option value="2">Africa</option>
+            <option value="3">North America</option>
+            <option value="4">South America</option>
+            <option value="5">Asia</option>
+            <option value="6">Europe</option>
+            <option value="7">Oceania</option>
+          </select>
+        </form>
+        <ul class="main-cards"></ul>
+      </main>
+    </div>
+
+    
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>

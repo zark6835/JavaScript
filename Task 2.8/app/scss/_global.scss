@@ -1,0 +1,35 @@
+html,
+body {
+	height: 100%;
+}
+
+*{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	box-sizing: border-box;
+}
+
+
+.main {
+	flex: 1 0 auto;
+}
+.footer {
+	flex: 0 0 auto;
+}
+
+.container{
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.height{
+	height: 100%;
+}
+
+.dark-mode{
+	background-color: #444654;
+	color: white;
+	transition: 0.5s;
+}
+
