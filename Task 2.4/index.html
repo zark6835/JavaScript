@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./css/style.css">
+   <link rel="stylesheet" href="./css/reset.css">
+   <title>Document</title>
+   <style>
+      body {
+         background-color: cornflowerblue;
+      }
+   </style>
+</head>
+
+<body>
+   <section class="wrapper">
+      <header class="create-acc">
+         <p class="create-acc__style">Create Account</p>
+      </header>
+      <form novalidate action="" id="createForm" oninput="level.value = flevel.valueAsNumber">
+         <main class="user-information">
+            <div class="beckdown">
+               <div>
+                  <p class="font-create__acc">First name*</p>
+                  <input data-required="name" type="text" id="name" placeholder="enter your first name" required
+                     class="dimensions-input">
+               </div>
+               <div>
+                  <p class="font-create__acc">Last name*</p>
+                  <input data-required="lastName" type="text" id="lastName" placeholder="enter your last name" required
+                     class="dimensions-input">
+               </div>
+            </div>
+            <div>
+               <p class="font-create__acc">Email*</p>
+               <input data-required="email" type="email" name="" id="email" placeholder="enter your email" required
+                  class="dimensions-input__dop">
+            </div>
+            <div class="beckdown">
+               <div>
+                  <p class="font-create__acc">Password*</p>
+                  <input data-required="password" type="password" name="" id="password"
+                     placeholder="enter your password" required class="dimensions-input">
+               </div>
+               <div>
+                  <p class="font-create__acc">Confirm Password*</p>
+                  <input data-required="confirmPassword" type="password" name="" id="confirmPassword"
+                     placeholder="enter your password" required class="dimensions-input">
+               </div>
+            </div>
+            <div class="beckdown">
+               <div>
+                  <p class="font-create__acc">Gender</p>
+                  <input type="radio" name="Gender" id="Male" class="" checked>
+                  <label for="Male">Male</label>
+                  <input type="radio" name="Gender" id="Femele" class="">
+                  <label for="Femele">Female</label>
+               </div>
+               <div>
+                  <p class="font-create__acc">Hobbies</p>
+                  <input type="checkbox" name="Hobbies" id="Hobbies" class="">
+                  <label for="Hobbies">Music</label>
+                  <input type="checkbox" name="Hobbies" id="Hobbies" class="">
+                  <label for="Hobbies">Sports</label>
+                  <input type="checkbox" name="Hobbies" id="Hobbies" class="">
+                  <label for="Hobbies">Travel</label>
+                  <input type="checkbox" name="Hobbies" id="Hobbies" class="">
+                  <label for="Hobbies">Movies</label>
+               </div>
+            </div>
+            <div class="beckdown">
+               <div>
+                  <p class="font-create__acc">Source of Income</p>
+                  <select name="" id="" class="dimensions-input">
+                     <option value="">Employed</option>
+                     <option value="">Do not specify</option>
+                  </select>
+               </div>
+               <div>
+                  <p class="font-create__acc">lncome</p>
+                  <input class="dimensions-input" name="flevel" id="flying" type="range" min="100" max="10000" value="100" step="10">
+                  <output class="range-number" for="flying" name="level">100</output>
+               </div>
+            </div>
+            <div class="beckdown">
+               <div>
+                  <p class="font-create__acc">Upload Profile Picture</p>
+                  <input data-required="false" type="file" name="" id="" class="dimensions-input">
+               </div>
+               <div>
+                  <p class="font-create__acc">Age</p>
+                  <input type="number" name="" id="" value="18" class="dimensions-input">
+               </div>
+            </div>
+            <div>
+               <p class="font-create__acc">Bio</p>
+               <textarea name="" id="" cols="30" rows="10" class="dimensions-input__dop"
+                  style="height: 68px;"></textarea>
+            </div>
+         </main>
+      </form>
+      <footer class="footer-create__acc">
+         <form>
+            <button class="footer-btn__style" id="button" type="submit" form="createForm">Create</button>
+         </form>
+      </footer>
+   </section>
+
+   <script src="./js/main.js"></script>
+</body>
+
+</html>
