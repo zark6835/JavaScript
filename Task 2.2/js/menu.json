@@ -1,0 +1,99 @@
+{
+  "all": [
+    {
+      "name": "Pancakes",
+      "price": "$9.99",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium voluptatum consequuntur fugiat repudiandae, nam, qui repellat consectetur alias saepe nemo cumque ratione laborum aut aspernatur veritatis dolores a officiis iure!",
+      "img": "../img/bludo1.jpg"
+    },
+
+    {
+      "category": "breakfast",
+      "name": "Burger",
+      "price": "$15.99",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium voluptatum consequuntur fugiat repudiandae, nam, qui repellat consectetur alias saepe nemo cumque ratione laborum aut aspernatur veritatis dolores a officiis iure!",
+      "img": "../img/burger.jpeg"
+    },
+    {
+      "name": "Pancakes",
+      "price": "$9.99",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium voluptatum consequuntur fugiat repudiandae, nam, qui repellat consectetur alias saepe nemo cumque ratione laborum aut aspernatur veritatis dolores a officiis iure!",
+      "img": "../img/bludo1.jpg"
+    },
+
+    {
+      "category": "breakfast",
+      "name": "Burger",
+      "price": "$15.99",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium voluptatum consequuntur fugiat repudiandae, nam, qui repellat consectetur alias saepe nemo cumque ratione laborum aut aspernatur veritatis dolores a officiis iure!",
+      "img": "../img/burger.jpeg"
+    },
+    {
+      "category": "breakfast",
+      "name": "Burger",
+      "price": "$15.99",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium voluptatum consequuntur fugiat repudiandae, nam, qui repellat consectetur alias saepe nemo cumque ratione laborum aut aspernatur veritatis dolores a officiis iure!",
+      "img": "../img/burger.jpeg"
+    }
+  ],
+  "breakfast": [
+    {
+      "name": "Pancakes",
+      "price": "$9.99",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium voluptatum consequuntur fugiat repudiandae, nam, qui repellat consectetur alias saepe nemo cumque ratione laborum aut aspernatur veritatis dolores a officiis iure!",
+      "img": "../img/bludo1.jpg"
+    },
+
+    {
+      "category": "breakfast",
+      "name": "Burger",
+      "price": "$15.99",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium voluptatum consequuntur fugiat repudiandae, nam, qui repellat consectetur alias saepe nemo cumque ratione laborum aut aspernatur veritatis dolores a officiis iure!",
+      "img": "../img/burger.jpeg"
+    },
+    {
+      "name": "Pancakes",
+      "price": "$9.99",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium voluptatum consequuntur fugiat repudiandae, nam, qui repellat consectetur alias saepe nemo cumque ratione laborum aut aspernatur veritatis dolores a officiis iure!",
+      "img": "../img/bludo1.jpg"
+    },
+    {
+      "name": "Pancakes",
+      "price": "$9.99",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium voluptatum consequuntur fugiat repudiandae, nam, qui repellat consectetur alias saepe nemo cumque ratione laborum aut aspernatur veritatis dolores a officiis iure!",
+      "img": "../img/bludo1.jpg"
+    }
+  ],
+  "lunch": [
+    {
+      "category": "breakfast",
+      "name": "Burger",
+      "price": "$15.99",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium voluptatum consequuntur fugiat repudiandae, nam, qui repellat consectetur alias saepe nemo cumque ratione laborum aut aspernatur veritatis dolores a officiis iure!",
+      "img": "../img/burger.jpeg"
+    },
+    {
+      "name": "Pancakes",
+      "price": "$9.99",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium voluptatum consequuntur fugiat repudiandae, nam, qui repellat consectetur alias saepe nemo cumque ratione laborum aut aspernatur veritatis dolores a officiis iure!",
+      "img": "../img/bludo1.jpg"
+    }
+  ],
+  "shakes": [
+    {
+      "category": "breakfast",
+      "name": "Burger",
+      "price": "$15.99",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium voluptatum consequuntur fugiat repudiandae, nam, qui repellat consectetur alias saepe nemo cumque ratione laborum aut aspernatur veritatis dolores a officiis iure!",
+      "img": "../img/burger.jpeg"
+    }
+  ],
+  "dinner": [
+    {
+      "name": "Pancakes",
+      "price": "$9.99",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium voluptatum consequuntur fugiat repudiandae, nam, qui repellat consectetur alias saepe nemo cumque ratione laborum aut aspernatur veritatis dolores a officiis iure!",
+      "img": "../img/bludo1.jpg"
+    }
+  ]
+}
